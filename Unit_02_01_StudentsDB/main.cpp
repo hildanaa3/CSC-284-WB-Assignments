@@ -1,4 +1,3 @@
-// main.cpp — UI; pulls in the DB (which pulls in Student)
 #include <iostream>
 #include <string>
 #include <string_view>
