@@ -1,10 +1,9 @@
-// StudentDatabase.cpp — includes Student.cpp directly (no headers)
 #include <vector>
 #include <string>
 #include <string_view>
 #include <unordered_map>
 
-#include "Student.cpp"  // intentionally included so we have the full type here
+#include "Student.cpp"
 
 using namespace std;
 
