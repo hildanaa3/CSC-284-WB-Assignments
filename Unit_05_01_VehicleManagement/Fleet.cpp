@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 
 Fleet::~Fleet() {
-    cout << "[Fleet dtor] Releasing " << vehicles.size() << " vehicles\n";
+    
     for (Vehicle* v : vehicles) delete v;
 }
 
