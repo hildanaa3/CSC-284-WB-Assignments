@@ -10,12 +10,10 @@ Motorcycle::Motorcycle() : Vehicle(), hasSidecar(false) {
 
 Motorcycle::Motorcycle(const std::string& mk, const std::string& mdl, int yr, double mil, bool sidecar)
     : Vehicle(mk, mdl, yr, mil), hasSidecar(sidecar) {
-    cout << "[Motorcycle ctor]\n";
+   
 }
 
-Motorcycle::~Motorcycle() {
-    cout << "[Destroy Motorcycle]\n";
-}
+Motorcycle::~Motorcycle() 
 
 void Motorcycle::setHasSidecar(bool sidecar) { hasSidecar = sidecar; }
 
