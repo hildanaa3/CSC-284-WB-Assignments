@@ -15,13 +15,11 @@ Truck::Truck(const std::string &mk, const std::string &mdl, int yr, double mil, 
 {
     if (loadCapacityTons < 0.0)
         throw std::invalid_argument("Load capacity cannot be negative");
-    cout << "[Truck ctor]\n";
+  
 }
 
 Truck::~Truck()
-{
-    cout << "[Destroy Truck]\n";
-}
+
 
 void Truck::setLoadCapacity(double capacityTons)
 {
