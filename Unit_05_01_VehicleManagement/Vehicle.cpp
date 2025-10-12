@@ -22,7 +22,6 @@ Vehicle::Vehicle()
     : make("Unknown"), model("Unknown"), year(2000), mileage(0.0)
 {
     ++vehicleCount;
-    cout << "[Vehicle ctor]\n";
 }
 
 Vehicle::Vehicle(const string &mk, const string &mdl, int yr, double mil)
@@ -33,14 +32,11 @@ Vehicle::Vehicle(const string &mk, const string &mdl, int yr, double mil)
     if (!isNonNegative(mileage))
         throw std::invalid_argument("Mileage must be >= 0");
     ++vehicleCount;
-    cout << "[Vehicle ctor] " << year << " " << make << " " << model << endl;
+
 }
 
 Vehicle::~Vehicle()
-{
-    cout << "[Destroy Vehicle] " << year << " " << make << " " << model << endl;
-    --vehicleCount;
-}
+
 
 void Vehicle::setMake(const string &mk)
 {
