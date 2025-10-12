@@ -15,13 +15,11 @@ Car::Car(const std::string &mk, const std::string &mdl, int yr, double mil, int 
 {
     if (numDoors <= 0)
         throw std::invalid_argument("Number of doors must be positive");
-    cout << "[Car ctor]\n";
+    
 }
 
 Car::~Car()
-{
-    cout << "[Destroy Car]\n";
-}
+
 
 void Car::setNumDoors(int doors)
 {
