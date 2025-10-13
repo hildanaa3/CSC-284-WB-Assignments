@@ -5,9 +5,7 @@
 using std::cout;
 using std::endl;
 
-Truck::Truck() : Vehicle(), loadCapacityTons(1.0) {
-    // (optional) cout << "[Truck ctor]\n";
-}
+Truck::Truck() : Vehicle(), loadCapacityTons(1.0) {}
 
 Truck::Truck(const std::string &mk, const std::string &mdl, int yr, double mil, double capacityTons)
     : Vehicle(mk, mdl, yr, mil), loadCapacityTons(capacityTons) {
