@@ -18,7 +18,7 @@ Car::Car(const std::string &mk, const std::string &mdl, int yr, double mil, int 
     
 }
 
-Car::~Car()
+Car::~Car(){}
 
 
 void Car::setNumDoors(int doors)
