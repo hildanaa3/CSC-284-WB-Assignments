@@ -1,0 +1,17 @@
+{
+    "email": "lucy.editor@newcompany.com",
+    "last_login": "2024-10-01",
+    "permissions": [
+        "edit_content",
+        "publish_content"
+    ],
+    "preferences": {
+        "notifications": {
+            "since": "2024-10-01",
+            "status": "enabled"
+        },
+        "theme": "light"
+    },
+    "role": "editor",
+    "username": "lucy_editor"
+}

@@ -1,0 +1,16 @@
+{
+    "email": "frank.editor@newcompany.com",
+    "last_login": "2024-10-02",
+    "permissions": [
+        "edit_content"
+    ],
+    "preferences": {
+        "notifications": {
+            "since": "2024-10-01",
+            "status": "enabled"
+        },
+        "theme": "dark"
+    },
+    "role": "editor",
+    "username": "frank_editor"
+}

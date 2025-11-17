@@ -1,0 +1,20 @@
+{
+    "email": "emma.viewer@newcompany.com",
+    "last_login": "2024-09-29",
+    "permissions": [
+        {
+            "granted_at": "2024-09-25",
+            "level": "read-only",
+            "permission": "view_content"
+        }
+    ],
+    "preferences": {
+        "notifications": {
+            "since": "2024-10-01",
+            "status": "enabled"
+        },
+        "theme": "light"
+    },
+    "role": "viewer",
+    "username": "emma_viewer"
+}
