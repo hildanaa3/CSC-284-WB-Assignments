@@ -251,7 +251,8 @@ public:
     }
 };
 
-int main() {
+int main() 
+{
     ChatClientUI ui;
     ui.init();
     ui.run();
